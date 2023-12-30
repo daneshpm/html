@@ -1,0 +1,123 @@
+.apply-button{
+  background-color: rgb(10, 102, 194);
+  color: white;
+  background-size: 30px;
+  font-size: larger;
+  font-style: bold;
+  border-radius: 30px;
+  border-color: rgb(19, 102, 223);
+  border-width: 2px;
+  cursor: pointer;
+  background-size: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left:113px;
+  margin-bottom: 200px;
+  transition: opacity 0.15s;
+
+}
+.apply-button:hover{
+  opacity: 0.8;
+  padding-top:20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+.apply-button:active{
+  background-color: grey;
+  color: black;
+}
+.cart
+{
+  background-color: yellow;
+  height: 45px;
+  width: 175px;
+  cursor: pointer;
+  border-radius: 30px;
+  border-color: yellow;
+  margin-right:100px ;
+  transition: box-shadow 0.15s,background-color 1s;
+}
+.cart:hover{
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.6) ;
+  background-color: blue;
+  opacity: 0.4;
+}
+.cart:active{
+  color: white;
+}
+.buy{
+  background-color:black;
+  height: 45px;
+  width: 175px;
+  cursor: pointer;
+  border-radius: 30px;
+  border-color: yellow;
+  margin-right:100px ;
+  color: aliceblue;
+}
+.stock{
+  color: green;
+}
+.link{
+  cursor: pointer;
+  color: black;
+
+}
+.s{
+  width:100px;
+  border-style:none;
+  border-radius: 2000px;
+  border-left-width: 200px;
+  border-right-width:200px;
+  border-top-width: 200px;
+  border-bottom-width: 200px;
+}
+.d,
+.a{
+  margin-bottom: 12px;
+  display: block;
+}
+.l{
+  width: 300px;
+  display:inline-block
+  
+}
+.f,.g{
+  width:30px ;
+  padding-right: 0px;
+  display: block
+  
+   
+}
+.k{
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding-right: 180px;
+  height: 30px;
+}
+.r,.w{
+  display: inline-block;
+  margin-top: 20px;
+  height: 30px;
+}
+.v{
+  color:white;
+  font-style: bold;
+  padding-left: 137px;
+  padding-right: 137px;
+  cursor:pointer;
+  background-color: blue;
+  border-style: none;
+  transition: 0.15s;
+  border-radius: 5px;
+  padding-top:8px ;
+  padding-bottom: 8px;
+  font-size: 20px;
+}
+.v:hover{
+  opacity: 0.4;
+}

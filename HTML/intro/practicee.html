@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>practicee</title>
+
+  </head>
+  <body>
+    <form>
+      <label>email</label>
+      <input type="text"><br><!--here br is used to beak line because of the displaying of all the elements in the same line-->
+      <input type="radio"><br>
+      <input type="checkbox"><br>
+    </form>
+    <p>notifications peference:</p>
+      <form>
+        <input type="checkbox" id="box1">
+        <label for="box1">email</label><br>
+        <!--the id attribute is used for a unque input element.the for attribute in label targets an input's id-->
+        <label for="em">email:</label>
+        <input type="text" id="em" name="email" value="danesh12112002@gmail.com"><br>
+        <input type="submit">
+      </form>
+      <form>
+        <input type="text" name="email">
+        <!--here name attribute values will be passed to the database-->
+        <input type="radio" id="r1" name="pay" value="cash">
+        <label for="r1">cash</label><br>
+        <input type="radio" id="r2" name="pay" value="credit">
+        <label for="r2">credit</label><br>
+        <select>
+          <option>danesh</option>
+          <option>sumit</option>
+          <option>manju</option>
+        </select>
+      </form>
+      <form>
+          <label>friends</label>
+        </select>
+        <select id="drop-down">
+          <option value="d">manju</option>
+          <option value="s">swaraj</option>
+        </select>
+        <input type="email">
+        <input type="tel">
+      </form>
+  </body>
+</html>

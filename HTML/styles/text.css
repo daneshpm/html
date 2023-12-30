@@ -1,0 +1,56 @@
+p{
+  font-family: Roboto;
+}
+.t{
+  font-size: 18px;
+  font-weight: bold;
+  width: 300px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+.p{
+ 
+  font-size: 14px;
+  width: 300px;
+  color:grey;
+  line-height: 24px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+
+}
+.s{
+  
+  color:gray;
+  font-size: 14px;
+  margin-top: 20px;
+
+}
+.q{
+  
+  font-size: 15px;
+  margin-top: 2px;
+  width: 290px;
+  color:grey;
+  line-height: 24px;
+  margin-bottom: 100px;
+
+}
+.apple-text
+{
+  margin-bottom: 50px;
+  font-size:14px ;
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+ 
+  
+}
+.xx{
+  margin-left: 10px;
+}
+.xx:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
